@@ -8,8 +8,8 @@ from .base import *
 KAFKA_BOOTSTRAP_SERVERS = ["47.100.225.208:9092"]
 
 # 主题使用 test 前缀，避免写入真实主题
-CURRENT_TIME_TOPIC = "test_current_time"
-QC_LOC_TOPIC = "test_qc_loc"
+CURRENT_TIME_TOPIC = "current_time"
+QC_LOC_TOPIC = "qc_loc"
 
 # 为了加快 CI 运行，间隔设得更短
 CURRENT_TIME_INTERVAL = 0.5
